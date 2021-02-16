@@ -7,9 +7,12 @@ npm install redux-thunk
 
 
 
-SERVER
+SERVER 
 npm init
 npm install express
 npm install --save nodemon
+npm install mongoose
+npm install bcryptjs
+npm install express-async-handler
 
 
