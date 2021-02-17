@@ -14,5 +14,7 @@ npm install --save nodemon
 npm install mongoose
 npm install bcryptjs
 npm install express-async-handler
+npm intsall jsonwebtoken
+npm install dotenv
 
 
