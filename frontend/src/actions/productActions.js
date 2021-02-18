@@ -37,7 +37,7 @@ export const detailsProduct = (productId) => async (dispatch) => {
     dispatch({
       type: PRODUCT_DETAILS_FAIL,
       payload:
-        error.response && error.response.data.message
+        error.response && error.response.data.message       // check if response exists and message exists if so return message otherwise return general message
           ? error.response.data.message
           : error.message,
     });
